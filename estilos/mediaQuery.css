@@ -13,6 +13,7 @@
 
     section#login{
         width: 80vw;
+        height: 320px;
     }
 
     section#login > div#imagem{
@@ -24,6 +25,27 @@
     section#login > div#formulario{
         float: right;
         width: 70%;
+        background-color: #fff;
+    }
+
+    form > input[type=submit]{
+        width: 70%;
+    }
+
+    form .botao{
+        width: 100%;
+    }
+
+    form > span .material-symbols-outlined{
+        font-size: 0.5em;
+    }
+
+    div#formulario > p{
+        font-size: 1.2em;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
     }
 }
 
@@ -46,6 +68,11 @@
     section#login > div#formulario{
         float: left;
         width: 50%;
+        background-color: #fff;
+    }
+
+    div#formulario{
+        margin:20px 0px ;
     }
 
     div#formulario > p{
@@ -54,6 +81,10 @@
 
     div#formulario > h1{
         font-size: 2em;
+    }
+
+    form > input[type=submit]{
+        width: 50%;
     }
 
 }
